@@ -8,9 +8,9 @@ class Artist
     @name = name
     @songs = []
   end
-binding.pry 
+binding.pry
   def add_song(song)
-    self.Song << song
+    self.songs << song
     song.artist = self
     @@song_count += 1
   end
