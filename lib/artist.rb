@@ -15,10 +15,6 @@ binding.pry
     @@song_count += 1
   end
 
-  def songs
-    @songs
-  end
-
   def self.song_count
     @@song_count
   end
