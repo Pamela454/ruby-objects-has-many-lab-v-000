@@ -8,7 +8,7 @@ class Artist
     @name = name
     @songs = []
   end
-binding.pry
+
   def add_song(song)
     self.songs << song
     song.artist = self
